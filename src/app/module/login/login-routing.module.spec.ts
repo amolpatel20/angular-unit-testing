@@ -5,7 +5,6 @@ import { Router } from "@angular/router";
 
 import { routes } from "./login-routing.module";
 import { LoginComponent } from './login/login.component';
-import { AppComponent } from 'src/app/app.component';
 
 describe("Router: Login", () => {
   let location: Location;

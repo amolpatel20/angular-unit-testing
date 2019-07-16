@@ -8,15 +8,14 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  loginForm: any;
-  
+  loginForm: FormGroup;
   user: any = {
     email:'amol@gmail.com',
     password: 'amol123'
   } 
 
   constructor(private fb: FormBuilder,
-    private router: Router,) { }
+    private router: Router) { }
 
   ngOnInit() {
     this.loginForm = this.fb.group({

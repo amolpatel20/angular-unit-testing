@@ -19,6 +19,7 @@ describe('Component: Login', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
+        CommonModule,
         RouterTestingModule,
         ReactiveFormsModule,
         FormsModule,
@@ -35,21 +36,6 @@ describe('Component: Login', () => {
   }));
 
   beforeEach(() => {
-    // TestBed.configureTestingModule({
-    //   imports: [
-    //     RouterTestingModule,
-    //     ReactiveFormsModule,
-    //     FormsModule,
-    //     MatToolbarModule,
-    //     MatCardModule,
-    //     MatButtonModule,
-    //     MatFormFieldModule,
-    //     MatInputModule,
-    //     BrowserAnimationsModule,
-    //     CommonModule
-    //   ],
-    //   declarations: [ LoginComponent ]
-    // });
     fixture = TestBed.createComponent(LoginComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
