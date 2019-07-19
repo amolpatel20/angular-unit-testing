@@ -6,6 +6,7 @@ import { ReactiveFormsModule, FormsModule, FormBuilder } from '@angular/forms';
 import { MatToolbarModule, MatCardModule, MatButtonModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
+import { LoginRoutingModule } from '../login-routing.module';
 
 describe('Component: Login', () => {
   let component: LoginComponent;
@@ -28,7 +29,8 @@ describe('Component: Login', () => {
         MatButtonModule,
         MatFormFieldModule,
         MatInputModule,
-        BrowserAnimationsModule
+        BrowserAnimationsModule,
+        LoginRoutingModule
       ],
       declarations: [ LoginComponent ]
     })

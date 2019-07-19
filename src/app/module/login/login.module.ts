@@ -11,13 +11,13 @@ import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
   imports: [
     CommonModule,
     FormsModule,
+    ReactiveFormsModule,
     LoginRoutingModule,
     MatToolbarModule,
     MatCardModule,
     MatButtonModule,
     MatFormFieldModule,
-    MatInputModule,
-    ReactiveFormsModule 
+    MatInputModule 
   ]
 })
 export class LoginModule { }
